@@ -47,14 +47,14 @@ article {
 
 .hero img {
     display: block;
-    width: 100;
+    width: 100%;
     height: auto;
 }
 
 h1 {
     position: absolute;
     top: 20px;
-    width: 107%;
+    width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
@@ -66,7 +66,7 @@ h1 {
     position: absolute;
     bottom: 20px;
     left: 15px;
-    width: 100%;
+    width: 92%;
     color: white;
     background-color: var(--accent1-color);
     padding: 5px;
@@ -84,7 +84,7 @@ header a {
 
 h2 {
     bottom: 20px;
-    width: 106%;
+    width: 100%;
     color: white;
     background-color: var(--accent1-color);
     padding: 5px;
@@ -94,7 +94,7 @@ h2 {
 footer hr {
     border: none;
     height: 1px;
-    width: 106%;
+    width: 100%;
     background-color: var(--accent1-color);
     margin-bottom: 5px;
 }
