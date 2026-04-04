@@ -50,7 +50,7 @@ p {
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 40px;
     padding: 20px;
     align-items: start;
 }
@@ -63,7 +63,7 @@ p {
 
 .company-info {
     text-align: center;
-    margin: 20px auto;
+    margin-bottom: 30px;
 }
 
 .employee-grid {
@@ -82,20 +82,19 @@ p {
 .contact-form form {
     display: grid;
     grid-template-columns: 140px 1fr;
-    gap: 10px 15px;
+    gap: 15px;
     align-items: center;
 }
 
 .contact-form input,
 .contact-form textarea {
-    padding: 8px;
+    padding: 10px;
     font-size: 1rem;
     width: 100%;
 }
 
 textarea {
     height: 100px;
-    resize: vertical;
 }
 
 .radio-group {
