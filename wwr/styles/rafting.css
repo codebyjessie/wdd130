@@ -166,7 +166,6 @@ footer {
     padding: 10px 20px;
 }
 
-/* Center the article box */
 .hero article {
     position: absolute;
 
@@ -183,11 +182,8 @@ footer {
     opacity: 0.9;
 
     display: flex;
-    /* 👈 ADD THIS */
     align-items: center;
-    /* 👈 vertically align */
     gap: 20px;
-    /* 👈 space between text & image */
 }
 
 /* Image inside article */
@@ -195,9 +191,4 @@ footer {
     width: 120px;
     height: 120px;
     object-fit: cover;
-}
-
-.hero article {
-    display: flex;
-    flex-direction: row-reverse;
 }
