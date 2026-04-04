@@ -180,15 +180,14 @@ footer {
     color: white;
     padding: 20px;
     opacity: 0.9;
-
-    display: flex;
-    align-items: center;
-    gap: 20px;
 }
 
 /* Image inside article */
 .hero article img {
+    float: right;
     width: 120px;
     height: 120px;
     object-fit: cover;
+    margin-left: 15px;
+    /* adds space between text and image */
 }
