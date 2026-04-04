@@ -50,6 +50,10 @@ p {
     padding: 8px;
 }
 
+.map-frame {
+    border: 0;
+}
+
 .company-info {
     text-align: center;
     margin: 20px auto;
