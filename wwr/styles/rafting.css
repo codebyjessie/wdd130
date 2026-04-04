@@ -153,8 +153,3 @@ h2 {
     opacity: 0.8;
     text-align: center;
 }
-
-.contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
