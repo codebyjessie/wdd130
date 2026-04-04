@@ -50,8 +50,22 @@ p {
     padding: 8px;
 }
 
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    align-items: start;
+}
+
 .map-frame {
     border: 0;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    align-items: start;
 }
 
 .company-info {
@@ -74,25 +88,29 @@ p {
 }
 
 .contact-form form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 10px 15px;
 }
 
 .contact-form input,
 .contact-form textarea {
     padding: 8px;
     font-size: 1rem;
+    width: 100%;
 }
 
-.contact-form button {
-    background-color: #264653;
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: var(--accent1-color);
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
+    width: 100%;
 }
 
 footer {
@@ -103,10 +121,40 @@ footer {
     padding: 0.5px;
 }
 
-.contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: start;
-    padding: 20px;
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-group input[type="radio"] {
+    width: auto;
+}
+
+.checkbox-row {
+    grid-column: 1 / -1;
+}
+
+/* checkbox alignment */
+.checkbox-row label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* prevent checkbox stretching */
+.checkbox-row input {
+    width: auto;
+}
+
+/* BUTTON full width */
+button {
+    grid-column: 1 / -1;
+    width: 100%;
 }

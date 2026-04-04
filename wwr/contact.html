@@ -26,9 +26,9 @@
             <section>
                 <h1>Rapids Water Rafting Company</h1>
                 <p>123 Main River Street</p>
-                <p>Kolob, California</p>
-                <p>+1 999 999 9999</p>
-                <p>info@whitewater.com</p>
+                <p>Cebu City, Cebu Philippines</p>
+                <p>+63 999 999 9999</p>
+                <p>rapidswaterrafting@gmail.com</p>
             </section>
         </div>
         <div class="contact-container">
@@ -38,38 +38,40 @@
                   width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
-                <div class="contact-form">
-                    <form action="#" method="post">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                        <p>Purpose of Message:</p>
+            <div class="contact-form">
+                <form>
 
-                        <label>
-                            <input type="radio" name="purpose" value="general"> General Inquiry
-                        </label>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Placeholder">
 
-                        <label>
-                            <input type="radio" name="purpose" value="reservation"> Reservation
-                            Question
-                        </label>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Placeholder">
 
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion"> Website
-                            Suggestion
+                    <label>Message Purpose</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="purpose" value="general">
+                            General Inquiry
                         </label>
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label><input type="radio" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+                        <label><input type="radio" name="purpose" value="suggestion">
+                            Website Suggestion
+                        </label>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type here"></textarea>
+
+                    <div class="checkbox-row">
                         <label>
                             <input type="checkbox" name="subscribe">
                             Please subscribe me to the monthly newsletter
                         </label>
-                        <button type="submit">Send Message</button>
-                    </form>
-                    </section>
-                </div>
+                    </div>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
             </div>
             <div>
                 <section class="employees">
