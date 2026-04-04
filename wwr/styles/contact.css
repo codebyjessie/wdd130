@@ -1,0 +1,100 @@
+:root {
+    --accent1-color: #264653;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    font: var(--body-font);
+    align-items: center;
+    background-color: var(--accent1-color);
+    padding: 10px 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+nav,
+p {
+    margin: 10px;
+    padding: 8px;
+}
+
+.company-info {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.employee-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #264653;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 0.5px;
+}
