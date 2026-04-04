@@ -75,8 +75,8 @@ p {
 
 .employee-grid {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
     flex-wrap: wrap;
     text-align: center;
 }
@@ -153,4 +153,14 @@ footer {
 .checkbox-row input[type="checkbox"] {
     width: auto;
     margin: 0;
+}
+
+h2 {
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    background-color: var(--accent1-color);
+    padding: 10px;
+    opacity: 0.8;
+    text-align: center;
 }
