@@ -16,11 +16,19 @@ body {
     color: var(--accent1-color);
 }
 
-header,
-main,
-footer {
-    width: 840px;
-    margin: 0 auto;
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: var(--accent1-color);
+    font-family: var(--heading-font);
+    opacity: 0.8;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 h1,
@@ -91,10 +99,20 @@ h2 {
     opacity: 0.8;
 }
 
-footer hr {
-    border: none;
-    height: 1px;
-    width: 100%;
+footer {
+    display: grid;
+    grid-template-columns: 1000px 1fr;
     background-color: var(--accent1-color);
-    margin-bottom: 5px;
+    color: white;
+    opacity: 0.8;
+    padding: 0.5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }
