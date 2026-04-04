@@ -102,3 +102,11 @@ footer {
     color: white;
     padding: 0.5px;
 }
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    padding: 20px;
+}
