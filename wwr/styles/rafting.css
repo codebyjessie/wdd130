@@ -185,9 +185,8 @@ footer {
 /* Image inside article */
 .hero article img {
     float: right;
-    width: 120px;
-    height: 120px;
+    width: 400px;
+    height: 200px;
     object-fit: cover;
-    margin-left: 15px;
-    /* adds space between text and image */
+    margin: 20px 0 20px 30px;
 }
