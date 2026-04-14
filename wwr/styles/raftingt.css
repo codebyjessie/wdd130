@@ -1,0 +1,55 @@
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #264653;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* TRIP GRID */
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.trip {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+}
+
+/* TABLE */
+.trip-table {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #264653;
+    color: white;
+}
